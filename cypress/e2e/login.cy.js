@@ -1,6 +1,6 @@
 describe("Login", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:4000");
+    cy.visit("/");
     cy.screenshot("apos-visitar-pagina");
   });
 
